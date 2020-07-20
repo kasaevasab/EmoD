@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:EmoDia;assembly=EmoDia"
+             mc:Ignorable="d"
+             x:Class="EmoDia.MainPage">
+    
+    <StackLayout BackgroundColor="#ffffff">
+        <Label Text="EmoDia"
+               FontFamily="Questrial"
+               Margin="15, 25, 15, 5"
+               TextColor="#86a1ff"
+               FontSize="70"
+               HorizontalOptions="Center"/>
+        
+        <Image Source="{local:ImageResource EmoDia.emodia.jpg}"
+               Margin="15, 5, 15, 45"
+               WidthRequest="240"
+               HeightRequest="240" />
+
+        <Button Text="Начать"
+               FontFamily="Pavanam"
+               FontSize="Medium"
+               BackgroundColor="#ffffff"
+               BorderColor="#86a1ff"
+               TextColor="#86a1ff"
+               BorderRadius="70"
+               BorderWidth="5" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               Clicked="BeginButtonClicked" />
+    </StackLayout>
+
+</ContentPage>
