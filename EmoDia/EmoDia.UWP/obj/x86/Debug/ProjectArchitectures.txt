@@ -1,1 +1,0 @@
-E:\EmoDia\EmoDia\EmoDia.UWP\EmoDia.UWP.csproj;x86

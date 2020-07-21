@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="fbbae2f0-18cb-477a-92af-79c4e3b1eaab"
-    Publisher="CN=7d794ae9-1a59-437a-b6d1-f69f1bd5e64c"
+    Name="72a74ef2-84ac-492c-b5b2-d75df64368cc"
+    Publisher="CN=c7b69309-641c-4114-ade4-487bb6fd0d69"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>EmoDia.UWP</DisplayName>
-    <PublisherDisplayName>7d794ae9-1a59-437a-b6d1-f69f1bd5e64c</PublisherDisplayName>
+    <PublisherDisplayName>c7b69309-641c-4114-ade4-487bb6fd0d69</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

@@ -6,23 +6,49 @@
              xmlns:local="clr-namespace:EmoDia;assembly=EmoDia"
              mc:Ignorable="d"
              x:Class="EmoDia.MainPage">
-    
+
     <StackLayout BackgroundColor="#ffffff">
         <Label Text="EmoDia"
-               FontFamily="Questrial"
                Margin="15, 25, 15, 5"
                TextColor="#86a1ff"
                FontSize="70"
-               HorizontalOptions="Center"/>
-        
-        <Image Source="{local:ImageResource EmoDia.emodia.jpg}"
+               HorizontalOptions="Center" />
+
+        <Image x:Name="appIcon"
+               Source="{local:ImageResource EmoDia.emodia.jpg}"
                Margin="15, 5, 15, 45"
-               WidthRequest="240"
-               HeightRequest="240" />
+               WidthRequest="168"
+               HeightRequest="168" />
+
+        <Frame BorderColor="Blue" BackgroundColor="White" 
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               WidthRequest="220"
+               HeightRequest="145">
+            <StackLayout>
+                <Entry x:Name="loginEntry"
+                    Placeholder="Логин"
+                    FontSize="Medium"
+                    BackgroundColor="#ffffff"
+                    TextColor="#86a1ff" />
+                <Entry x:Name="passwordEntry"
+                    Placeholder="Пароль"
+                    FontSize="Medium"
+                    BackgroundColor="#ffffff"
+                    TextColor="#86a1ff"
+                    IsPassword="True" />
+                <Button x:Name="registrationButton"
+                    Text="Зарегистрироваться"
+                    FontSize="9"
+                    BackgroundColor="White"
+                    TextColor="#86a1ff"
+                    HorizontalOptions="Start"
+                    Clicked="RegistrationButtonClicked" />
+            </StackLayout>
+        </Frame>
 
         <Button Text="Начать"
-               FontFamily="Pavanam"
-               FontSize="Medium"
+               FontSize="Small"
                BackgroundColor="#ffffff"
                BorderColor="#86a1ff"
                TextColor="#86a1ff"

@@ -8,7 +8,7 @@
 
     <StackLayout>
         <Button Text="Дневник эмоций"
-               FontSize="Large"
+               FontSize="Small"
                BackgroundColor="#ffffff"
                BorderColor="#86a1ff"
                TextColor="#86a1ff"
@@ -19,7 +19,7 @@
                Clicked="PushEmotionalDiary" />
 
         <Button Text="Личный дневник"
-               FontSize="Large"
+               FontSize="Small"
                BackgroundColor="#ffffff"
                BorderColor="#86a1ff"
                TextColor="#86a1ff"
@@ -29,8 +29,8 @@
                VerticalOptions="CenterAndExpand"
                 Clicked="PushPersonalDiary" />
 
-            <Button Text="Дневник благодарностей"
-               FontSize="Large"
+        <Button Text="Дневник благодарностей"
+               FontSize="Small"
                BackgroundColor="#ffffff"
                BorderColor="#86a1ff"
                TextColor="#86a1ff"
@@ -39,6 +39,6 @@
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand"
                 Clicked="PushThankDiary" />
-        </StackLayout>
-        
+    </StackLayout>
+
 </ContentPage>

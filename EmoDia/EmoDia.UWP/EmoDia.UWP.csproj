@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{FE7F83F4-7ECC-4CCA-B0BB-E968406263B9}</ProjectGuid>
+    <ProjectGuid>{A835F34E-C258-497D-A378-15AF9197C6CF}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EmoDia.UWP</RootNamespace>
@@ -144,12 +144,12 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.908675" />
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9"/>
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EmoDia\EmoDia.csproj">
-      <Project>{FC4C2E24-41BC-4FBC-822B-25425CE86459}</Project>
+      <Project>{140FD3B7-1D75-49E7-A50F-9E2B5D443345}</Project>
       <Name>EmoDia</Name>
     </ProjectReference>
   </ItemGroup>

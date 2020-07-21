@@ -8140,18 +8140,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\Оксана\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
+      "projectUniqueName": "E:\\main\\EmoDia\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
       "projectName": "EmoDia.UWP",
-      "projectPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.UWP\\obj\\",
+      "projectPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
+      "packagesPath": "C:\\Users\\Оксана\\.nuget\\packages\\",
+      "outputPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8159,7 +8159,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Оксана\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8173,8 +8173,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj"
+            "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
+              "projectPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj"
             }
           }
         }

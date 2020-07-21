@@ -62,7 +62,7 @@ namespace EmoDia
 
                     showHintsButton.Clicked += delegate (object Sender, EventArgs e)
                     {
-                        labelTime.Text = "Время (примерное время, когда вы столкнулись с этой ситуацией)";
+                        labelTime.Text = "Время (когда вы столкнулись с этой ситуацией)";
                         labelSituation.Text = "Ситуация (описание ситуации)";
                         labelReaction.Text = "Реакция (как вы отреагировали на ситуацию)";
                         labelEmotion.Text = "Эмоция (какую эмоцию испытали от ситуации)";

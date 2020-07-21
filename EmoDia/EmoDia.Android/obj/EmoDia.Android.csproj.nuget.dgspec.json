@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj": {}
+    "E:\\main\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj": {
+    "E:\\main\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj",
+        "projectUniqueName": "E:\\main\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj",
         "projectName": "EmoDia.Android",
-        "projectPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia.Android\\obj\\",
+        "projectPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia.Android\\EmoDia.Android.csproj",
+        "packagesPath": "C:\\Users\\Оксана\\.nuget\\packages\\",
+        "outputPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Оксана\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj"
+              "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
+                "projectPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
+    "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj",
+        "projectUniqueName": "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj",
         "projectName": "EmoDia",
-        "projectPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Argh\\Argh\\EmoDia\\EmoDia\\EmoDia\\obj\\",
+        "projectPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj",
+        "packagesPath": "C:\\Users\\Оксана\\.nuget\\packages\\",
+        "outputPath": "E:\\main\\EmoDia\\EmoDia\\EmoDia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Оксана\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -117,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
