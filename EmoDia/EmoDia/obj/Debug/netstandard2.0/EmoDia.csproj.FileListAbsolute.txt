@@ -12,3 +12,17 @@ E:\main\EmoDia\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.dll
 E:\main\EmoDia\EmoDia\EmoDia\obj\Debug\netstandard2.0\ref\EmoDia.dll
 E:\main\EmoDia\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.pdb
 E:\main\EmoDia\EmoDia\EmoDia\obj\Debug\netstandard2.0\DiariesPage.xaml.g.cs
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\bin\Debug\netstandard2.0\EmoDia.deps.json
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\bin\Debug\netstandard2.0\EmoDia.dll
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\bin\Debug\netstandard2.0\ref\EmoDia.dll
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\bin\Debug\netstandard2.0\EmoDia.pdb
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.csprojAssemblyReference.cache
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\DiariesPage.xaml.g.cs
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.AssemblyInfoInputs.cache
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.AssemblyInfo.cs
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.dll
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\ref\EmoDia.dll
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\EmoDia.pdb
+C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddToEmoDiaryDiary", "AddToEmoDiaryDiary\AddToEmoDiaryDiary.csproj", "{FEFF3858-85AA-4AF1-B664-F7F83B80C23D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEFF3858-85AA-4AF1-B664-F7F83B80C23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFF3858-85AA-4AF1-B664-F7F83B80C23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFF3858-85AA-4AF1-B664-F7F83B80C23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFF3858-85AA-4AF1-B664-F7F83B80C23D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A5A871B-E5AB-4223-AD62-5C19BA3AB0FC}
+	EndGlobalSection
+EndGlobal
