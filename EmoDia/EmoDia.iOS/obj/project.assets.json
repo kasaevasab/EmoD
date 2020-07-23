@@ -8549,24 +8549,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Оксана\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia.iOS\\EmoDia.iOS.csproj",
+      "projectUniqueName": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia.iOS\\EmoDia.iOS.csproj",
       "projectName": "EmoDia.iOS",
-      "projectPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia.iOS\\EmoDia.iOS.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia.iOS\\obj\\",
+      "projectPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia.iOS\\EmoDia.iOS.csproj",
+      "packagesPath": "C:\\Users\\Оксана\\.nuget\\packages\\",
+      "outputPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Оксана\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8580,8 +8580,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\EmoDia.csproj": {
-              "projectPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\EmoDia.csproj"
+            "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
+              "projectPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj"
             }
           }
         }

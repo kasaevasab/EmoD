@@ -8096,23 +8096,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Оксана\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\EmoDia.csproj",
+      "projectUniqueName": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj",
       "projectName": "EmoDia",
-      "projectPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\EmoDia.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\obj\\",
+      "projectPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj",
+      "packagesPath": "C:\\Users\\Оксана\\.nuget\\packages\\",
+      "outputPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Оксана\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8182,7 +8182,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -42,7 +42,7 @@ namespace EmoDia
             VerticalOptions = LayoutOptions.CenterAndExpand
         };
 
-        Frame loginAndRegistrationFrame = new Frame { BorderColor = Color.Blue, BackgroundColor = Color.White, HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, WidthRequest = 220, HeightRequest = 145 };
+        Frame loginAndRegistrationFrame = new Frame { BorderColor = Color.Blue, BackgroundColor = Color.White, HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, WidthRequest = 220, HeightRequest = 200 };
 
         //Визуальные элементы, которые будут содержимым страницы при регистрации пользователя. Поля для ввода пароля, логина и кода, описание функции кода гостя и кнопка "Войти".
         Entry nameCreate = new Entry() { Placeholder = "Введите имя", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255) };
@@ -50,7 +50,7 @@ namespace EmoDia
         Entry mailCreate = new Entry() { Placeholder = "Введите почту", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255) };
         Entry passwordCreate = new Entry() { Placeholder = "Введите пароль", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255), IsPassword = true };
         Entry codeCreate = new Entry() { Placeholder = "Введите код гостя", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255), IsPassword = true };
-        Label hintCode = new Label { Text = "Гости - пользователи, которые могут читать дневник, но не могут его изменить. Заходить в ваш дневник гости могут с помощью кода.", FontSize = 15, TextColor = Color.FromRgb(114, 161, 255) };
+        Label hintCode = new Label { Text = "Гости - пользователи, которые могут читать дневник, но не могут его изменить. Заходить в ваш дневник гости могут с помощью кода.", FontSize = 13, TextColor = Color.FromRgb(114, 161, 255) };
         Button signInButton = new Button { Text = "Войти", FontSize = 9, BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255), HorizontalOptions = LayoutOptions.Start };
 
         public MainPage()
@@ -71,7 +71,7 @@ namespace EmoDia
 
             regButton.Clicked += registration;
 
-            StackLayout stackLayout = new StackLayout() { Children = { appTitle, appIcon, loginAndRegistrationFrame, regButton } };
+            StackLayout stackLayout = new StackLayout() { Children = { appTitle, appIcon, loginAndRegistrationFrame, regButton }, BackgroundColor = Color.White };
 
             ScrollView scrollView = new ScrollView();
 
@@ -109,12 +109,12 @@ namespace EmoDia
                 }
                 else if (Globals.curUserId == "")
                 {
-                    DisplayAlert("Упс...", "Учетная запись не найдена.", "Закрыть");
+                    await DisplayAlert("Упс...", "Учетная запись не найдена.", "Закрыть");
                     await Navigation.PushAsync(new MainPage());
                 }
                 else
                 {
-                    DisplayAlert("Упс...", "Что-то пошло не так.", "Закрыть");
+                    await DisplayAlert("Упс...", "Что-то пошло не так.", "Закрыть");
                     await Navigation.PushAsync(new MainPage());
                 }
             }
@@ -158,7 +158,7 @@ namespace EmoDia
                             var response1 = await client1.PostAsync(URL2, content1);
                             if (response1.IsSuccessStatusCode)
                             {
-                                DisplayAlert("Ваша учетная запись создана", $"", "OK");
+                                await DisplayAlert("Ваша учетная запись создана", $"", "OK");
                                 await Navigation.PushAsync(new MainPage());
                             }
                             else
@@ -168,13 +168,13 @@ namespace EmoDia
                         }
                         catch
                         {
-                            DisplayAlert("Упс...", "Что-то пошло не так, Ваша учетная запись не создана.", "Закрыть");
+                            await DisplayAlert("Упс...", "Что-то пошло не так, Ваша учетная запись не создана.", "Закрыть");
                         }
                     }
                 }
                 else
                 {
-                    DisplayAlert("Упс...", "К данному почтовому адресу уже привязана учетная запись.", "Закрыть");
+                    await DisplayAlert("Упс...", "К данному почтовому адресу уже привязана учетная запись.", "Закрыть");
                 }
             }
         }

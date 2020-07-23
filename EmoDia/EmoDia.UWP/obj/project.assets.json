@@ -25541,7 +25541,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
+      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -35146,18 +35146,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\Оксана\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
+      "projectUniqueName": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
       "projectName": "EmoDia.UWP",
-      "projectPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia.UWP\\obj\\",
+      "projectPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia.UWP\\EmoDia.UWP.csproj",
+      "packagesPath": "C:\\Users\\Оксана\\.nuget\\packages\\",
+      "outputPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -35165,7 +35165,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Оксана\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -35179,8 +35179,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\EmoDia.csproj": {
-              "projectPath": "C:\\Sabina\\Летняя школа по мобильной разработке\\дневник\\EmoDia\\EmoDia\\EmoDia.csproj"
+            "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj": {
+              "projectPath": "E:\\Programs\\EmoDia\\EmoDia\\EmoDia\\EmoDia.csproj"
             }
           }
         }
