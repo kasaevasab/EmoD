@@ -49,9 +49,10 @@ namespace EmoDia
         Entry surnameCreate = new Entry() { Placeholder = "Введите фамилию", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255) };
         Entry mailCreate = new Entry() { Placeholder = "Введите почту", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255) };
         Entry passwordCreate = new Entry() { Placeholder = "Введите пароль", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255), IsPassword = true };
-        Entry codeCreate = new Entry() { Placeholder = "Введите код гостя", FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255), IsPassword = true };
-        Label hintCode = new Label { Text = "Гости - пользователи, которые могут читать дневник, но не могут его изменить. Заходить в ваш дневник гости могут с помощью кода.", FontSize = 15, TextColor = Color.FromRgb(114, 161, 255) };
         Button signInButton = new Button { Text = "Войти", FontSize = 9, BackgroundColor = Color.White, TextColor = Color.FromRgb(114, 161, 255), HorizontalOptions = LayoutOptions.Start };
+
+        static string[] r = new string[] { "Роль не выбрана", "Обычный пользователь", "Психолог" };
+        Picker rolePicker = new Picker { ItemsSource = r, BackgroundColor = Color.White, FontSize = Device.GetNamedSize(NamedSize.Medium, typeof(Entry)), TextColor = Color.FromRgb(114, 161, 255),  SelectedIndex = 0};
 
         public MainPage()
         {
@@ -67,7 +68,7 @@ namespace EmoDia
         private void RegistrationButtonClicked(object sender, EventArgs e)
         {
             loginAndRegistrationFrame.HeightRequest = 400;
-            loginAndRegistrationFrame.Content = new StackLayout { Children = { nameCreate, surnameCreate, mailCreate, passwordCreate, codeCreate, hintCode, signInButton } };
+            loginAndRegistrationFrame.Content = new StackLayout { Children = { nameCreate, surnameCreate, mailCreate, passwordCreate, rolePicker, signInButton } };
 
             regButton.Clicked += registration;
 
@@ -142,10 +143,9 @@ namespace EmoDia
                     {
                         name = nameCreate.Text,
                         surname = surnameCreate.Text,
-                        code = codeCreate.Text,
                         mail = mailCreate.Text,
                         password = passwordCreate.Text,
-                        birthday = ""
+                        role = r[rolePicker.SelectedIndex]
                     };
 
                     using (var client1 = new HttpClient())
