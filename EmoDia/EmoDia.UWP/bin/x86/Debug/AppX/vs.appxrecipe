@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-04T19:35:49.723</Modified>
+      <Modified>2020-08-07T07:00:12.747</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\EmoDia.UWP.exe">
       <PackagePath>entrypoint\EmoDia.UWP.exe</PackagePath>
-      <Modified>2020-08-04T19:35:47.491</Modified>
+      <Modified>2020-08-07T07:00:02.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.aspnet.webapi.client\5.2.4\lib\netstandard2.0\System.Net.Http.Formatting.dll">
       <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
@@ -980,7 +980,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia\bin\Debug\netstandard2.0\EmoDia.dll">
       <PackagePath>EmoDia.dll</PackagePath>
-      <Modified>2020-08-06T16:14:12.775</Modified>
+      <Modified>2020-08-07T06:59:14.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -1135,15 +1135,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-08-04T19:35:47.048</Modified>
+      <Modified>2020-08-07T07:00:02.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-04T19:35:47.048</Modified>
+      <Modified>2020-08-07T07:00:02.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-04T19:35:47.049</Modified>
+      <Modified>2020-08-07T07:00:02.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -1163,11 +1163,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-07-21T23:15:59.048</Modified>
+      <Modified>2020-08-07T07:00:09.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.UWP\bin\x86\Debug\Core\EmoDia.UWP.exe">
       <PackagePath>EmoDia.UWP.exe</PackagePath>
-      <Modified>2020-08-04T19:35:49.717</Modified>
+      <Modified>2020-08-07T07:00:12.742</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

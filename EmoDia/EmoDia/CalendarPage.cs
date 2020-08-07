@@ -53,6 +53,7 @@ namespace EmoDia
 
                     StackLayout EDStackLayout = new StackLayout
                     {
+                        BackgroundColor = Color.White,
                         Children = { EDDatePicker,
                         labelTime, timePicker,
                         labelSituation, editorSituation,
@@ -67,12 +68,12 @@ namespace EmoDia
 
                     showHintsButton.Clicked += delegate (object Sender, EventArgs e)
                     {
-                        labelTime.Text = "Время (примерное время, когда вы столкнулись с этой ситуацией)";
+                        labelTime.Text = "Время (когда вы столкнулись с этой ситуацией)";
                         labelSituation.Text = "Ситуация (описание ситуации)";
                         labelReaction.Text = "Реакция (как вы отреагировали на ситуацию)";
                         labelEmotion.Text = "Эмоция (какую эмоцию испытали от произошедшего)";
                         labelTrigger.Text = "Триггеры (что именно вызвало подобные эмоции)";
-                        labelActualEmotion.Text = "Нынешние эмоции (что испытываете в настоящий момент)";
+                        labelActualEmotion.Text = "Нынешние эмоции (что испытываете сейчас)";
                         labelRethinking.Text = "Переосмысление (как вы видите эту ситуацию сейчас)";
                         labelConclusion.Text = "Выводы (какие уроки вынесли из этой ситуации)";
 
@@ -103,13 +104,13 @@ namespace EmoDia
                     {
                         var obj = new
                         {
-                            id = Globals.curUserId,
-                            time = timePicker.Time.ToString(),
+                            userId = Globals.curUserId,
+                            recTime = timePicker.Time.ToString(),
                             situation = editorSituation.Text,
                             reaction = editorReaction.Text,
                             emotion = editorEmotion.Text,
-                            trigger = editorTrigger.Text,
-                            curEmo = editorActualEmotion.Text,
+                            emoTrigger = editorTrigger.Text,
+                            curEmotions = editorActualEmotion.Text,
                             rethinking = editorRethinking.Text,
                             conclusion = editorConclusion.Text,
                             date = EDDatePicker.Date.ToString().Substring(0, 10).Trim()
@@ -125,7 +126,7 @@ namespace EmoDia
                                 var response = await client.PostAsync(URL, content);
                                 if (response.IsSuccessStatusCode)
                                 {
-                                    DisplayAlert("", "Ваша запись успешно сохранена", "OK");
+                                    await DisplayAlert("", "Ваша запись успешно сохранена", "OK");
                                 }
                                 else
                                 {
@@ -134,7 +135,7 @@ namespace EmoDia
                             }
                             catch
                             {
-                                DisplayAlert("Упс...",
+                                await DisplayAlert("Упс...",
                                     "что-то пошло не так, Ваша запись не сохранена.",
                                     "Закрыть");
                             }
@@ -157,7 +158,7 @@ namespace EmoDia
 
                     ScrollView TDScrollView = new ScrollView();
 
-                    StackLayout TDStackLayout = new StackLayout();
+                    StackLayout TDStackLayout = new StackLayout() { BackgroundColor = Color.White };
 
                     DatePicker TDDatePicker = new DatePicker { Format = "D" };
 
@@ -204,7 +205,7 @@ namespace EmoDia
                                 var response = await client.PostAsync(URL, content);
                                 if (response.IsSuccessStatusCode)
                                 {
-                                    DisplayAlert("", "Ваша запись успешно сохранена", "OK");
+                                    await DisplayAlert("", "Ваша запись успешно сохранена", "OK");
                                 }
                                 else
                                 {
@@ -213,7 +214,7 @@ namespace EmoDia
                             }
                             catch
                             {
-                                DisplayAlert("Упс...",
+                                await DisplayAlert("Упс...",
                                     "что-то пошло не так, Ваша запись не сохранена.",
                                     "Закрыть");
                             }
@@ -231,7 +232,7 @@ namespace EmoDia
 
                     ScrollView PDScrollView = new ScrollView();
 
-                    StackLayout PDStackLayout = new StackLayout();
+                    StackLayout PDStackLayout = new StackLayout() { BackgroundColor = Color.White };
 
                     DatePicker PDDatePicker = new DatePicker { Format = "D" };
 
@@ -267,7 +268,7 @@ namespace EmoDia
                                 var response = await client.PostAsync(URL, content);
                                 if (response.IsSuccessStatusCode)
                                 {
-                                    DisplayAlert("", "Ваша запись успешно сохранена", "OK");
+                                    await DisplayAlert("", "Ваша запись успешно сохранена", "OK");
                                 }
                                 else
                                 {
@@ -276,7 +277,7 @@ namespace EmoDia
                             }
                             catch
                             {
-                                DisplayAlert("Упс...",
+                                await DisplayAlert("Упс...",
                                     "что-то пошло не так, Ваша запись не сохранена.",
                                     "Закрыть");
                             }

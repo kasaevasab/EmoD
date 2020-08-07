@@ -1,62 +1,46 @@
-@string/appbar_scrolling_view_behavior;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-@string/appbar_scrolling_view_behavior;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-alpha;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
-alpha;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
-android.support.design.widget.AppBarLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.AppBarLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.AppBarLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.design.widget.AppBarLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.AppBarLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.AppBarLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.design.widget.BottomNavigationView;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
-android.support.design.widget.CoordinatorLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.CoordinatorLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.design.widget.CoordinatorLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.CoordinatorLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.design.widget.TabLayout;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.TabLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+alpha;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+alpha;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
-android.support.v7.widget.RecyclerView;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.v7.widget.RecyclerView;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.v7.widget.Toolbar;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.v7.widget.Toolbar;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.v7.widget.Toolbar;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.v7.widget.Toolbar;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.v7.widget.RecyclerView;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
-external-cache-path;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-cache-path;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
-item;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
-item;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+FrameLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+item;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
-LinearLayout;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
-paths;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
-resources;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+LinearLayout;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+paths;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
-set;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
-set;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
-set;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
-set;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
-style;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
-style;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+set;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+set;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
+set;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+set;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+style;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
-translate;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
-translate;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
-translate;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
-translate;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Sabina\Летняя школа по мобильной разработке\дневник\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;E:\main\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+translate;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+translate;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
+translate;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+translate;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;E:\Programs\EmoDia\EmoDia\EmoDia.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
